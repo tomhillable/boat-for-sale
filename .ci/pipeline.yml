@@ -152,7 +152,7 @@ Resources:
       Environment:
         Type: LINUX_CONTAINER
         ComputeType: BUILD_GENERAL1_SMALL
-        Image: 'amazonlinux:2017.03.1.20170812'
+        Image: aws/codebuild/ruby:2.5.3
 #        EnvironmentVariables:
 #          - Name: S3_BUCKET
 #            Value: !Ref ArtifactStore
