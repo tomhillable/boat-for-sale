@@ -1,0 +1,155 @@
+---
+layout: post
+title:  "Oyster - 9m 1980 Westerly Konsort (fin keel)"
+date:   2019-03-25 13:05:14 +0000
+categories: jekyll theme
+location: Haslar Marina, Gosport
+---
+
+Our trusty Westerly Konsort, Oyster, is offered for sale as we are upgrading to a liveaboard cruiser.  We have had some great adventures on her with our kids and hope to find her a new home for this sailing season. 
+  
+Oyster is a great example of Westerly’s popular, comfortable and safe cruiser. With her steadfast and sturdy performance, she is a durable and trustworthy yacht.  She is solid in all conditions, easy to handle and has a spacious and practical interior - brilliant for family cruising and shorthanded sailing alike. 
+
+<div class="post-image">
+    <img src="{{ site.baseurl }}/img/750px/20.png" />
+</div>
+
+Oyster has been well looked-after and has benefitted from many upgrades and replacements including new standing rigging (2018) and new sails (late 2017, used from July 2018).  Oyster is lying in Gosport, is ready to sail and a full and recent survey is available on request.
+
+**Full specification is after the photos**
+
+<div class="post-image post-image--split">
+    <img src="{{ site.baseurl }}/img/365px/24.png" />
+    <img src="{{ site.baseurl }}/img/365px/2.png" />
+</div>
+<div class="post-image post-image--split">
+    <img src="{{ site.baseurl }}/img/365px/1.png" />
+    <img src="{{ site.baseurl }}/img/365px/25.png" />
+</div>
+
+<div class="post-image">
+    <img src="{{ site.baseurl }}/img/750px/19.png" />
+</div>
+
+<div class="post-image">
+    <img src="{{ site.baseurl }}/img/750px/9.png" />
+</div>
+
+<div class="post-image post-image--split">
+    <img src="{{ site.baseurl }}/img/365px/5.png" />
+    <img src="{{ site.baseurl }}/img/365px/6.png" />
+</div>
+<div class="post-image post-image--split">
+    <img src="{{ site.baseurl }}/img/365px/17.png" />
+    <img src="{{ site.baseurl }}/img/365px/10.png" />
+</div>
+<div class="post-image post-image--split">
+    <img src="{{ site.baseurl }}/img/365px/54.png" />
+    <img src="{{ site.baseurl }}/img/365px/12.png" />
+</div>
+<div class="post-image post-image--split">
+    <img src="{{ site.baseurl }}/img/365px/53.png" />
+    <img src="{{ site.baseurl }}/img/365px/55.png" />
+</div>
+<div class="post-image post-image--split">
+    <img src="{{ site.baseurl }}/img/365px/50.png" />
+    <img src="{{ site.baseurl }}/img/365px/18.png" />
+</div>
+
+<div class="post-image">
+    <img src="{{ site.baseurl }}/img/750px/68.png" />
+</div>
+
+<div class="post-image post-image--split">
+    <img src="{{ site.baseurl }}/img/365px/69.png" />
+    <img src="{{ site.baseurl }}/img/365px/70.png" />
+</div>
+
+<div class="post-image">
+    <img src="{{ site.baseurl }}/img/750px/72.png" />
+</div>
+
+<div class="post-image">
+    <img src="{{ site.baseurl }}/img/750px/71.png" />
+</div>
+
+<div class="post-image">
+    <img src="{{ site.baseurl }}/img/750px/75.png" />
+</div>
+
+<div class="post-image post-image--split">
+    <img src="{{ site.baseurl }}/img/365px/73.png" />
+    <img src="{{ site.baseurl }}/img/365px/74.png" />
+</div>
+
+FURTHER DETAILS
+
+**Specification**
+
+Vessel type: Sailing cruiser  
+Builder: Westerly  
+Make: Westerly  
+Model: Konsort  
+Year constructed: 1980  
+HIN: SOU138880  
+No. of engines: 1  
+Engine model: Bukh  
+Engine power: 20  
+Fuel type: Diesel  
+Drive type: Shaft drive  
+Length over all: 28' 10"  
+Length at waterline: 25' 6"  
+Beam: 10' 9"  
+Maximum draft: 5' 4"  
+Hull material: Glass Fibre  
+Keel type: Fin Keel  
+Displacement: 8516 lbs  
+
+**Engine**  
+
+Oyster has a Bukh DV20 diesel engine (not original) that starts and runs very well, with no unusual noises and good coolant flow.  
+Specific updates to the engine include:   
+- August 2018 - water pump chain & impeller replaced.  
+- Late 2017 - fuel filters, oil filter, replacement injector, refurbished fuel solenoid, replacement exhaust hose with silencer, impeller and anode replacement. 
+
+**Rigging**  
+
+* 2018:  The standing rigging was completely overhauled. New stainless steel standing rigging was fitted including turnbuckles and forestay.  Also the Sailspar endless line furler was refurbished and all bearings replaced.  
+* 2019:  New mainsheet & genoa sheets.
+
+**Sails**  
+
+New Jeckells Mainsail and Genoa were made and fitted in late 2017 but not used until July 2018.  Likewise, a new replacement sprayhood and mainsail stackpack by Quaysails in Poole were fitted in late 2017.   
+Pre-used set of sails are included and still very serviceable.
+
+**Additional upgrades and equipment**  
+
+* New starter and house batteries (2018)
+* New battery monitor (2018)
+* New non-skid deck paint (2018)
+* Through hulls and seacocks were inspected and replaced in late 2017.
+* Shaft seal, hose and greaser were refurbished late 2017.
+* Toilet hoses replaced late 2017.
+* Gas hoses and regulator were replaced late 2017. Spare gas locker fitted in the cockpit.
+* Eberspacher heating works very well extending the sailing season right through the year. 
+* Coolmatic fridge works really well and has new lid (2018).
+* Neptune cooker is in excellent condition and includes 2 burners, grill and oven.
+* Autohelm 2000 included.
+* Oyster is fitted with additional opening port lights for improved ventilation.
+* Fuel capacity 15 gallons.
+
+
+**Outstanding boat jobs**  
+
+We recognize that every boat comes with a rolling list of maintenance needs.  The list below reflects the work we intend to do on Oyster if we have her for this season: 
+
+* Lift, scrub & antifoul – We intend to schedule a lift, scrub and antifoul at some point in the next few weeks. 
+* Cosmetic attention – new varnish on woodwork and minor gel coat touch ups.
+
+Contact details: 
+For further information about Oyster, or to arrange a viewing, please contact:
+
+Tom Hill
+tom@hillinternet.co.uk
+07932 823227
+
