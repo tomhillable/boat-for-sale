@@ -1,0 +1,7 @@
+{
+    "StackName": "boat-for-sale-pipeline",
+    "Parameters": [],
+    "Capabilities": [
+        "CAPABILITY_IAM"
+    ]
+}
