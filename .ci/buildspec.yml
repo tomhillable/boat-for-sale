@@ -5,7 +5,8 @@ phases:
   install:
     commands:
       - gem uninstall bundler
-      - command bundler
+      - command bundle
+      - which bundle
       - bundle --version
       - gem install bundler
       - bundle --version
