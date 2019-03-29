@@ -65,8 +65,9 @@ Resources:
               Configuration:
                 Branch: !Ref Branch
                 Owner: !Select [ 0, !Split [ "/", !Ref RepositoryName ] ]
-                Repo: !Select [ 1, !Split [ "/", !Ref RepositoryName ] ]
                 OAuthToken: !Ref GithubToken
+                Repo: !Select [ 1, !Split [ "/", !Ref RepositoryName ] ]
+                PollForSourceChanges: False
         - Name: Pipeline
           Actions:
             - Name: Update
@@ -249,3 +250,17 @@ Resources:
                 Resource:
                   - !Sub "arn:${AWS::Partition}:s3:::${ArtifactStore}"
                   - !Sub "arn:${AWS::Partition}:s3:::${ArtifactStore}/*"
+
+  PipelineWebhook:
+    Type: AWS::CodePipeline::Webhook
+    Properties:
+      AuthenticationConfiguration:
+        SecretToken: !Ref GithubToken
+      Filters:
+      - JsonPath: "$.ref"
+        MatchEquals: refs/heads/{Branch}
+      Authentication: GITHUB_HMAC
+      TargetPipeline: !Ref Pipeline
+      TargetAction: Source
+      TargetPipelineVersion: !GetAtt Pipeline.Version
+      RegisterWithThirdParty: True
