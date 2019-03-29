@@ -9,6 +9,8 @@ phases:
   build:
     commands:
       - unset BUNDLE_VERSION
+      - env
+      - bundle --version
       - bundle install
       - jekyll build
 
