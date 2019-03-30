@@ -8,7 +8,7 @@ phases:
 
   build:
     commands:
-      - unset BUNDLE_VERSION
+      - unset BUNDLER_VERSION
       - env
       - bundle --version
       - bundle install
