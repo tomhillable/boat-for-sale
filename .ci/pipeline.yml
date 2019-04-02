@@ -81,11 +81,11 @@ Resources:
         Aliases:
           - !Sub "${Subdomain}.${DomainName}"
         DefaultCacheBehavior:
-          DefaultTTL: 60
+          DefaultTTL: 3600
           TargetOriginId: S3Origin
           ViewerProtocolPolicy: redirect-to-https
           ForwardedValues:
-            QueryString: true
+            QueryString: False
         DefaultRootObject: index.html
         Enabled: true
         HttpVersion: http2
