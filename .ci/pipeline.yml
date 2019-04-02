@@ -9,6 +9,16 @@ Parameters:
     Description: Branch to use from the repository.
     Type: String
 
+  CertificateArn:
+    Type: AWS::SSM::Parameter::Value<String>
+    Default: CertificateArn
+    Description: The ARN of the ACM certificate
+
+  DomainName:
+    Default: clockworkcubed.com
+    Description: The top level domain name
+    Type: String
+
   GithubToken:
     Default: /Secrets/Git/github.com/PublicRepoToken
     Description: The path to the GithubToken in Parameter Store
@@ -30,6 +40,11 @@ Parameters:
     Description: The name of the repository that triggers this pipeline
     Type: String
 
+  Subdomain:
+    Default: oyster
+    Description: The subdomain
+    Type: String
+
 Resources:
 
   ArtifactStore:
@@ -44,6 +59,71 @@ Resources:
 
   BoatForSaleBucket:
     Type: AWS::S3::Bucket
+
+  BoatForSaleBucketPolicy:
+    Type: AWS::S3::BucketPolicy
+    Properties:
+      Bucket: !Ref BoatForSaleBucket
+      PolicyDocument:
+        Statement:
+          - Sid: AddCanonicalUserPermission
+            Action: s3:*
+            Effect: "Allow"
+            Resource: !Sub "${BoatForSaleBucket.Arn}/*"
+            Principal:
+              CanonicalUser: !GetAtt OriginAccessIdentity.S3CanonicalUserId
+
+  CDN:
+    Type: AWS::CloudFront::Distribution
+    Properties:
+      DistributionConfig:
+        Comment: !Sub "A CloudFront distribution for ${Project}"
+        Aliases:
+          - !Sub "${Subdomain}.${DomainName}"
+        DefaultCacheBehavior:
+          DefaultTTL: 60
+          TargetOriginId: S3Origin
+          ViewerProtocolPolicy: redirect-to-https
+          ForwardedValues:
+            QueryString: true
+        DefaultRootObject: index.html
+        Enabled: true
+        HttpVersion: http2
+        IPV6Enabled: true
+        Origins:
+          - DomainName: !GetAtt BoatForSaleBucket.DomainName
+            Id: S3Origin
+            OriginPath: /_site
+            S3OriginConfig:
+              OriginAccessIdentity: !Sub "origin-access-identity/cloudfront/${OriginAccessIdentity}"
+        ViewerCertificate:
+          AcmCertificateArn: !Ref CertificateArn
+          SslSupportMethod: sni-only
+
+
+  OriginAccessIdentity:
+    Type: "AWS::CloudFront::CloudFrontOriginAccessIdentity"
+    Properties:
+      CloudFrontOriginAccessIdentityConfig:
+        Comment: "Origin Access Identity to access private bucket"
+
+  Record:
+    Type: AWS::Route53::RecordSetGroup
+    Properties:
+      HostedZoneName: !Sub "${DomainName}."
+      RecordSets:
+        - Name: !Sub "${Subdomain}.${DomainName}"
+          Type: A
+          AliasTarget:
+            HostedZoneId: Z2FDTNDATAQYW2
+            EvaluateTargetHealth: true
+            DNSName: !GetAtt CDN.DomainName
+        - Name: !Sub "${Subdomain}.${DomainName}"
+          Type: AAAA
+          AliasTarget:
+            HostedZoneId: Z2FDTNDATAQYW2
+            EvaluateTargetHealth: true
+            DNSName: !GetAtt CDN.DomainName
 
   Pipeline:
     Type: AWS::CodePipeline::Pipeline
