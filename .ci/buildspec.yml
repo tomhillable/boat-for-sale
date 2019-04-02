@@ -15,5 +15,8 @@ phases:
       - env
       - bundle --version
       - bundle install
-      - jekyll build
+      - bundle exec jekyll build
 
+artifacts:
+  files:
+    - _site/**/*

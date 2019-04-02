@@ -42,10 +42,13 @@ Resources:
           - Status: Enabled
             ExpirationInDays: 1
 
+  BoatForSaleBucket:
+    Type: AWS::S3::Bucket
+
   Pipeline:
     Type: AWS::CodePipeline::Pipeline
     Properties:
-      RestartExecutionOnUpdate: false
+      RestartExecutionOnUpdate: True
       ArtifactStore:
         Location: !Ref ArtifactStore
         Type: S3
@@ -108,38 +111,21 @@ Resources:
                 - Name: BuildOutput
               Configuration:
                 ProjectName: !Ref Build
-#        - Name: Release
-#          Actions:
-#            - Name: Create
-#              RunOrder: 1
-#              ActionTypeId:
-#                Category: Deploy
-#                Owner: AWS
-#                Provider: CloudFormation
-#                Version: 1
-#              InputArtifacts:
-#                - Name: BuildOutput
-#              Configuration:
-#                ActionMode: CHANGE_SET_REPLACE
-#                Capabilities: CAPABILITY_IAM
-#                RoleArn: !GetAtt CloudformationRole.Arn
-#                StackName: !Sub '${Project}-${Branch}-release'
-#                ChangeSetName: !Sub '${Project}-${Branch}-release-cs'
-#                TemplatePath: 'BuildOutput::template.yml'
-#                ParameterOverrides: !Sub '{ "Name": "${Project}" }'
-#            - Name: Deploy
-#              RunOrder: 3
-#              ActionTypeId:
-#                Category: Deploy
-#                Owner: AWS
-#                Provider: CloudFormation
-#                Version: 1
-#              Configuration:
-#                ActionMode: CHANGE_SET_EXECUTE
-#                Capabilities: CAPABILITY_IAM
-#                ChangeSetName: !Sub '${Project}-${Branch}-release-cs'
-#                RoleArn: !GetAtt CloudformationRole.Arn
-#                StackName: !Sub '${Project}-${Branch}-release'
+        - Name: Deploy
+          Actions:
+            - Name: Deploy
+              RunOrder: 1
+              InputArtifacts:
+                - Name: BuildOutput
+              ActionTypeId:
+                Category: Deploy
+                Owner: AWS
+                Version: 1
+                Provider: S3
+              Configuration:
+                BucketName: !Ref BoatForSaleBucket
+                Extract: True
+
 
   Build:
     Type: AWS::CodeBuild::Project
@@ -154,11 +140,6 @@ Resources:
         Type: LINUX_CONTAINER
         ComputeType: BUILD_GENERAL1_SMALL
         Image: aws/codebuild/ruby:2.5.3
-#        EnvironmentVariables:
-#          - Name: S3_BUCKET
-#            Value: !Ref ArtifactStore
-#          - Name: AWS_ACCOUNT_ID
-#            Value: !Ref 'AWS::AccountId'
       Artifacts:
         Type: CODEPIPELINE
 
@@ -209,6 +190,8 @@ Resources:
                 Resource:
                   - !Sub "arn:${AWS::Partition}:s3:::${ArtifactStore}"
                   - !Sub "arn:${AWS::Partition}:s3:::${ArtifactStore}/*"
+                  - !Sub "arn:${AWS::Partition}:s3:::${BoatForSaleBucket}"
+                  - !Sub "arn:${AWS::Partition}:s3:::${BoatForSaleBucket}/*"
               - Action: 'codebuild:*'
                 Effect: Allow
                 Resource: !Sub "arn:${AWS::Partition}:codebuild:${AWS::Region}:${AWS::AccountId}:project/${Build}"
