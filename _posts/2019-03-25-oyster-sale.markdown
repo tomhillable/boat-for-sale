@@ -11,7 +11,7 @@ Our trusty Westerly Konsort, Oyster, is offered for sale as we are upgrading to 
 Oyster is a great example of Westerly’s popular, comfortable and safe cruiser. With her steadfast and sturdy performance, she is a durable and trustworthy yacht.  She is solid in all conditions, easy to handle and has a spacious and practical interior - brilliant for family cruising and shorthanded sailing alike. 
 
 <div class="post-image">
-    <img src="{{ site.baseurl }}/img/750px/20.png" />
+    <img src="{{ site.baseurl }}/img/750px/20.jp2" />
 </div>
 
 Oyster has been well looked-after and has benefitted from many upgrades and replacements including new standing rigging (2018) and new sails (late 2017, used from July 2018).  Oyster is lying in Gosport, is ready to sail and a full and recent survey is available on request.
@@ -19,67 +19,67 @@ Oyster has been well looked-after and has benefitted from many upgrades and repl
 **Full specification is after the photos**
 
 <div class="post-image post-image--split">
-    <img src="{{ site.baseurl }}/img/365px/24.png" />
-    <img src="{{ site.baseurl }}/img/365px/2.png" />
+    <img src="{{ site.baseurl }}/img/365px/24.jp2" />
+    <img src="{{ site.baseurl }}/img/365px/2.jp2" />
 </div>
 <div class="post-image post-image--split">
-    <img src="{{ site.baseurl }}/img/365px/1.png" />
-    <img src="{{ site.baseurl }}/img/365px/25.png" />
+    <img src="{{ site.baseurl }}/img/365px/1.jp2" />
+    <img src="{{ site.baseurl }}/img/365px/25.jp2" />
 </div>
 
 <div class="post-image">
-    <img src="{{ site.baseurl }}/img/750px/19.png" />
+    <img src="{{ site.baseurl }}/img/750px/19.jp2" />
 </div>
 
 <div class="post-image">
-    <img src="{{ site.baseurl }}/img/750px/9.png" />
+    <img src="{{ site.baseurl }}/img/750px/9.jp2" />
 </div>
 
 <div class="post-image post-image--split">
-    <img src="{{ site.baseurl }}/img/365px/5.png" />
-    <img src="{{ site.baseurl }}/img/365px/6.png" />
+    <img src="{{ site.baseurl }}/img/365px/5.jp2" />
+    <img src="{{ site.baseurl }}/img/365px/6.jp2" />
 </div>
 <div class="post-image post-image--split">
-    <img src="{{ site.baseurl }}/img/365px/17.png" />
-    <img src="{{ site.baseurl }}/img/365px/10.png" />
+    <img src="{{ site.baseurl }}/img/365px/17.jp2" />
+    <img src="{{ site.baseurl }}/img/365px/10.jp2" />
 </div>
 <div class="post-image post-image--split">
-    <img src="{{ site.baseurl }}/img/365px/54.png" />
-    <img src="{{ site.baseurl }}/img/365px/12.png" />
+    <img src="{{ site.baseurl }}/img/365px/54.jp2" />
+    <img src="{{ site.baseurl }}/img/365px/12.jp2" />
 </div>
 <div class="post-image post-image--split">
-    <img src="{{ site.baseurl }}/img/365px/53.png" />
-    <img src="{{ site.baseurl }}/img/365px/55.png" />
+    <img src="{{ site.baseurl }}/img/365px/53.jp2" />
+    <img src="{{ site.baseurl }}/img/365px/55.jp2" />
 </div>
 <div class="post-image post-image--split">
-    <img src="{{ site.baseurl }}/img/365px/50.png" />
-    <img src="{{ site.baseurl }}/img/365px/18.png" />
-</div>
-
-<div class="post-image">
-    <img src="{{ site.baseurl }}/img/750px/68.png" />
-</div>
-
-<div class="post-image post-image--split">
-    <img src="{{ site.baseurl }}/img/365px/69.png" />
-    <img src="{{ site.baseurl }}/img/365px/70.png" />
+    <img src="{{ site.baseurl }}/img/365px/50.jp2" />
+    <img src="{{ site.baseurl }}/img/365px/18.jp2" />
 </div>
 
 <div class="post-image">
-    <img src="{{ site.baseurl }}/img/750px/72.png" />
-</div>
-
-<div class="post-image">
-    <img src="{{ site.baseurl }}/img/750px/71.png" />
-</div>
-
-<div class="post-image">
-    <img src="{{ site.baseurl }}/img/750px/75.png" />
+    <img src="{{ site.baseurl }}/img/750px/68.jp2" />
 </div>
 
 <div class="post-image post-image--split">
-    <img src="{{ site.baseurl }}/img/365px/73.png" />
-    <img src="{{ site.baseurl }}/img/365px/74.png" />
+    <img src="{{ site.baseurl }}/img/365px/69.jp2" />
+    <img src="{{ site.baseurl }}/img/365px/70.jp2" />
+</div>
+
+<div class="post-image">
+    <img src="{{ site.baseurl }}/img/750px/72.jp2" />
+</div>
+
+<div class="post-image">
+    <img src="{{ site.baseurl }}/img/750px/71.jp2" />
+</div>
+
+<div class="post-image">
+    <img src="{{ site.baseurl }}/img/750px/75.jp2" />
+</div>
+
+<div class="post-image post-image--split">
+    <img src="{{ site.baseurl }}/img/365px/73.jp2" />
+    <img src="{{ site.baseurl }}/img/365px/74.jp2" />
 </div>
 
 FURTHER DETAILS
