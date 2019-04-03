@@ -2,7 +2,7 @@
 // - 1x: name.png
 // - 2x: name@2x.png
 // - 3x: name@3x.png
-@mixin retina-background-image($img-path, $ext: '.jp2') {
+@mixin retina-background-image($img-path, $ext: '.jpeg') {
     // Non-retina device
     background-image: url($img-path + $ext);
     background-size: 100%;

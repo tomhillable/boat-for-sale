@@ -11,7 +11,7 @@ Our trusty Westerly Konsort, Oyster, is offered for sale as we are upgrading to 
 Oyster is a great example of Westerly’s popular, comfortable and safe cruiser. With her steadfast and sturdy performance, she is a durable and trustworthy yacht.  She is solid in all conditions, easy to handle and has a spacious and practical interior - brilliant for family cruising and shorthanded sailing alike. 
 
 <div class="post-image">
-    <img src="{{ site.baseurl }}/img/750px/20.jp2" />
+    <img src="{{ site.baseurl }}/img/750px/20.jpeg" />
 </div>
 
 Oyster has been well looked-after and has benefitted from many upgrades and replacements including new standing rigging (2018) and new sails (late 2017, used from July 2018).  Oyster is lying in Gosport, is ready to sail and a full and recent survey is available on request.
@@ -19,67 +19,67 @@ Oyster has been well looked-after and has benefitted from many upgrades and repl
 **Full specification is after the photos**
 
 <div class="post-image post-image--split">
-    <img src="{{ site.baseurl }}/img/365px/24.jp2" />
-    <img src="{{ site.baseurl }}/img/365px/2.jp2" />
+    <img src="{{ site.baseurl }}/img/365px/24.jpeg" />
+    <img src="{{ site.baseurl }}/img/365px/2.jpeg" />
 </div>
 <div class="post-image post-image--split">
-    <img src="{{ site.baseurl }}/img/365px/1.jp2" />
-    <img src="{{ site.baseurl }}/img/365px/25.jp2" />
+    <img src="{{ site.baseurl }}/img/365px/1.jpeg" />
+    <img src="{{ site.baseurl }}/img/365px/25.jpeg" />
 </div>
 
 <div class="post-image">
-    <img src="{{ site.baseurl }}/img/750px/19.jp2" />
+    <img src="{{ site.baseurl }}/img/750px/19.jpeg" />
 </div>
 
 <div class="post-image">
-    <img src="{{ site.baseurl }}/img/750px/9.jp2" />
+    <img src="{{ site.baseurl }}/img/750px/9.jpeg" />
 </div>
 
 <div class="post-image post-image--split">
-    <img src="{{ site.baseurl }}/img/365px/5.jp2" />
-    <img src="{{ site.baseurl }}/img/365px/6.jp2" />
+    <img src="{{ site.baseurl }}/img/365px/5.jpeg" />
+    <img src="{{ site.baseurl }}/img/365px/6.jpeg" />
 </div>
 <div class="post-image post-image--split">
-    <img src="{{ site.baseurl }}/img/365px/17.jp2" />
-    <img src="{{ site.baseurl }}/img/365px/10.jp2" />
+    <img src="{{ site.baseurl }}/img/365px/17.jpeg" />
+    <img src="{{ site.baseurl }}/img/365px/10.jpeg" />
 </div>
 <div class="post-image post-image--split">
-    <img src="{{ site.baseurl }}/img/365px/54.jp2" />
-    <img src="{{ site.baseurl }}/img/365px/12.jp2" />
+    <img src="{{ site.baseurl }}/img/365px/54.jpeg" />
+    <img src="{{ site.baseurl }}/img/365px/12.jpeg" />
 </div>
 <div class="post-image post-image--split">
-    <img src="{{ site.baseurl }}/img/365px/53.jp2" />
-    <img src="{{ site.baseurl }}/img/365px/55.jp2" />
+    <img src="{{ site.baseurl }}/img/365px/53.jpeg" />
+    <img src="{{ site.baseurl }}/img/365px/55.jpeg" />
 </div>
 <div class="post-image post-image--split">
-    <img src="{{ site.baseurl }}/img/365px/50.jp2" />
-    <img src="{{ site.baseurl }}/img/365px/18.jp2" />
-</div>
-
-<div class="post-image">
-    <img src="{{ site.baseurl }}/img/750px/68.jp2" />
-</div>
-
-<div class="post-image post-image--split">
-    <img src="{{ site.baseurl }}/img/365px/69.jp2" />
-    <img src="{{ site.baseurl }}/img/365px/70.jp2" />
+    <img src="{{ site.baseurl }}/img/365px/50.jpeg" />
+    <img src="{{ site.baseurl }}/img/365px/18.jpeg" />
 </div>
 
 <div class="post-image">
-    <img src="{{ site.baseurl }}/img/750px/72.jp2" />
-</div>
-
-<div class="post-image">
-    <img src="{{ site.baseurl }}/img/750px/71.jp2" />
-</div>
-
-<div class="post-image">
-    <img src="{{ site.baseurl }}/img/750px/75.jp2" />
+    <img src="{{ site.baseurl }}/img/750px/68.jpeg" />
 </div>
 
 <div class="post-image post-image--split">
-    <img src="{{ site.baseurl }}/img/365px/73.jp2" />
-    <img src="{{ site.baseurl }}/img/365px/74.jp2" />
+    <img src="{{ site.baseurl }}/img/365px/69.jpeg" />
+    <img src="{{ site.baseurl }}/img/365px/70.jpeg" />
+</div>
+
+<div class="post-image">
+    <img src="{{ site.baseurl }}/img/750px/72.jpeg" />
+</div>
+
+<div class="post-image">
+    <img src="{{ site.baseurl }}/img/750px/71.jpeg" />
+</div>
+
+<div class="post-image">
+    <img src="{{ site.baseurl }}/img/750px/75.jpeg" />
+</div>
+
+<div class="post-image post-image--split">
+    <img src="{{ site.baseurl }}/img/365px/73.jpeg" />
+    <img src="{{ site.baseurl }}/img/365px/74.jpeg" />
 </div>
 
 FURTHER DETAILS
@@ -149,9 +149,9 @@ We recognize that every boat comes with a rolling list of maintenance needs.  Th
 Contact details: 
 For further information about Oyster, or to arrange a viewing, please contact:
 
-Tom Hill
-tom@hillinternet.co.uk
-07932 823227
+**Tom Hill**  
+**tom@hillinternet.co.uk**  
+**07932 823227**  
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137563349-1"></script>
