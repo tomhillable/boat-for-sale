@@ -6,6 +6,7 @@ categories: jekyll theme
 location: Haslar Marina, Gosport
 ---
 
+**£12,650 - Priced to sell.**  
 Our trusty Westerly Konsort, Oyster, is offered for sale as we are upgrading to a liveaboard cruiser.  We have had some great adventures on her with our kids and hope to find her a new home for this sailing season. 
   
 Oyster is a great example of Westerly’s popular, comfortable and safe cruiser. With her steadfast and sturdy performance, she is a durable and trustworthy yacht.  She is solid in all conditions, easy to handle and has a spacious and practical interior - brilliant for family cruising and shorthanded sailing alike. 
@@ -14,7 +15,7 @@ Oyster is a great example of Westerly’s popular, comfortable and safe cruiser.
     <img src="{{ site.baseurl }}/img/750px/20.jpeg" />
 </div>
 
-Oyster has been well looked-after and has benefitted from many upgrades and replacements including new standing rigging (2018) and new sails (late 2017, used from July 2018).  Oyster is lying in Gosport, is ready to sail and a full and recent survey is available on request.
+Oyster has been well looked-after and has benefitted from many upgrades and replacements including new standing rigging (2018) and new sails (late 2017, used from July 2018), new non-skid deck paint (2018), and new starter and house batteries (2018).  Oyster is newly scrubbed and antifouled with newly serviced winches and new anodes (all April 2019).  She is lying in Gosport is ready to sail and a full and recent survey is available on request.  
 
 **Full specification is after the photos**
 
@@ -70,17 +71,23 @@ Oyster has been well looked-after and has benefitted from many upgrades and repl
 </div>
 
 <div class="post-image">
-    <img src="{{ site.baseurl }}/img/750px/71.jpeg" />
-</div>
-
-<div class="post-image">
     <img src="{{ site.baseurl }}/img/750px/75.jpeg" />
 </div>
 
 <div class="post-image post-image--split">
+    <img src="{{ site.baseurl }}/img/365px/7.jpeg" />
     <img src="{{ site.baseurl }}/img/365px/73.jpeg" />
-    <img src="{{ site.baseurl }}/img/365px/74.jpeg" />
 </div>
+
+<div class="post-image">
+    <img src="{{ site.baseurl }}/img/750px/74.jpeg" />
+</div>
+
+<div class="post-image post-image--split">
+    <img src="{{ site.baseurl }}/img/365px/4.jpeg" />
+    <img src="{{ site.baseurl }}/img/365px/3.jpeg" />
+</div>
+
 
 FURTHER DETAILS
 
@@ -124,19 +131,25 @@ Pre-used set of sails are included and still very serviceable.
 
 **Additional upgrades and equipment**  
 
-* New starter and house batteries (2018)
-* New battery monitor (2018)
-* New non-skid deck paint (2018)
-* Through hulls and seacocks were inspected and replaced in late 2017.
-* Shaft seal, hose and greaser were refurbished late 2017.
-* Toilet hoses replaced late 2017.
-* Gas hoses and regulator were replaced late 2017. Spare gas locker fitted in the cockpit.
-* Eberspacher heating works very well extending the sailing season right through the year. 
-* Coolmatic fridge works really well and has new lid (2018).
-* Neptune cooker is in excellent condition and includes 2 burners, grill and oven.
-* Autohelm 2000 included.
-* Oyster is fitted with additional opening port lights for improved ventilation.
-* Fuel capacity 15 gallons.
+- Newly anti-fouled and anodes replaced (April 2019)  
+- Winches serviced (April 2019)  
+- New starter and house batteries - 2018  
+- New battery monitor - 2018  
+- New non-skid deck paint - 2018  
+- New LED lights throughout - 2018  
+- Through hulls and seacocks inspected and replaced - late 2017  
+- Shaft seal, hose and greaser refurbished - late 2017  
+- Toilet hoses replaced - late 2017  
+- Gas hoses and regulator were replaced - late 2017. Spare gas locker fitted in the cockpit.  
+- Eberspacher heating works very well extending the sailing season right through the year.  
+- Coolmatic fridge works really well. New lid and seals - fitted 2018  
+- Neptune cooker is in excellent condition and includes 2 burners, grill and oven  
+- Autohelm 2000 included  
+- VHF Radio onboard  
+- Plastimo compass onboard   
+- Clipper Log and Depth onboard  
+- Additional opening port lights for improved ventilation  
+- Fuel capacity - 15 gallons  
 
 
 **Outstanding boat jobs**  
