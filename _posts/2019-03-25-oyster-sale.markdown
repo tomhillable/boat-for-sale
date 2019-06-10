@@ -79,8 +79,9 @@ Oyster has been well looked-after and has benefitted from many upgrades and repl
     <img src="{{ site.baseurl }}/img/365px/73.jpeg" />
 </div>
 
-<div class="post-image">
-    <img src="{{ site.baseurl }}/img/750px/74.jpeg" />
+<div class="post-image post-image--split">
+    <img src="{{ site.baseurl }}/img/365px/76.jpeg" />
+    <img src="{{ site.baseurl }}/img/365px/77.jpeg" />
 </div>
 
 <div class="post-image post-image--split">
