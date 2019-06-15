@@ -6,7 +6,7 @@ categories: jekyll theme
 location: Haslar Marina, Gosport
 ---
 
-**£12,650 - Priced to sell.**  
+**£11,450 - Priced to sell.**  
 Our trusty Westerly Konsort, Oyster, is offered for sale as we are upgrading to a liveaboard cruiser.  We have had some great adventures on her with our kids and hope to find her a new home for this sailing season. 
   
 Oyster is a great example of Westerly’s popular, comfortable and safe cruiser. With her steadfast and sturdy performance, she is a durable and trustworthy yacht.  She is solid in all conditions, easy to handle and has a spacious and practical interior - brilliant for family cruising and shorthanded sailing alike. 
