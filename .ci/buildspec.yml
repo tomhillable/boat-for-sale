@@ -2,18 +2,21 @@ version: 0.2
 
 env:
   variables:
-    BUNDLER_VERSION: 2.0.1
+    BUNDLER_VERSION: 2.0.2
 
 phases:
 
   install:
     commands:
-      - gem update
+      - gem uninstall -a bundler
+      - gem install bundler -v ${BUNDLER_VERSION}
 
   build:
     commands:
       - env
-      - bundle --version
+      - which bundle
+      - bundle version
+      - /usr/local/bin/bundle version
       - bundle install
       - bundle exec jekyll build
 
